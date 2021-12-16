@@ -1,0 +1,54 @@
+.ourWorks{
+    padding-top: 75px;
+    font-family: "Montserrat Regular";
+
+    .wrapper{    display: flex;
+        justify-content: flex-start;
+        width: 92%;
+        padding: 0;
+        margin: 0;
+        max-width: initial;
+        margin-left: auto;}
+
+    .title {
+    display: inline;
+    font-weight: 600;
+    line-height: 1rem;
+  }
+  
+  .list {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: start;
+    max-height: 220vh;
+    width: 82%;
+    gap: 1rem;
+  }
+  
+  .item {
+    margin-top: 22px;
+    width: 474px;
+    height: 393px;
+    background-color: gray;
+    border-radius: 10px;
+  }
+
+  &__link{    
+    margin-top: 45px;
+    text-align: end;
+    width: 474px;
+    color: #59A8FD;
+
+    @include colors($defaultColor: #59A8FD, 
+    $visitColor: #59A8FD, 
+    $hoverColor: #175eaf, 
+    $activeColor: #59A8FD)
+
+    &:hover{
+    path{fill: #175eaf}
+    }
+  }
+
+  &__link-img{padding-left:12px}
+}

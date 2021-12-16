@@ -1,0 +1,25 @@
+.nav{
+    margin-top: 25px;
+
+    
+}
+
+.desktopMenu{
+    display: flex;
+    align-items: center;
+
+
+    &__item{
+        margin: 0 10px;
+        font-family: "Montserrat Regular";
+
+        
+
+        @include colors($visitColor: #777, $hoverColor: #fff, $activeColor: #777);
+     
+        &_phone{
+            font-size: 2.2rem;
+            @include colors($visitColor: #fff, $hoverColor: #fff, $activeColor: #fff);
+        }
+    }
+}

@@ -1,0 +1,25 @@
+.trust{
+    margin-top: 100px;
+    padding-top: 40px;
+    padding-bottom: 70px;
+    background: #E1E8F4;
+    color: #000;
+
+    h2,p{color:#000}
+
+
+    &__p{
+        margin-top: -30px;
+    }
+
+    hr{
+        color: #59A8FD;
+        background-color: #59A8FD;
+        height: 1px;
+        width: 101%;
+        left: -7px;
+        margin: 20px 0;
+        position: relative;
+        display: block;
+    }
+}

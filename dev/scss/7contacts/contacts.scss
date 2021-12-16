@@ -1,0 +1,86 @@
+.contacts{
+    background: #E1E8F4;
+    color: #000;
+    padding-top: 100px;
+    padding-bottom: 60px;
+
+    .title{color:#000}
+
+    .coords{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .socialLinks{
+        display: flex;
+        justify-content: space-between;
+        max-width: 44%;
+    }
+
+    &__img{
+        padding-left: 15px;
+    }
+
+    &__form{
+        display: flex;
+        flex-direction: column;
+        background: #1C1C1C;
+        font-family: "Montserrat Light";
+        color: #fff;
+        text-align: center;
+        padding: 20px 65px;
+
+            h4{
+                font-size: 3rem;
+                margin: 1rem 0;
+                font-family: "Montserrat Regular";
+            }
+
+            .subtitle{    width: 323px;
+                margin: auto;
+                font-size: 1.5rem;
+                white-space: nowrap;}
+
+            .input{
+                background: rgba(0,0,0,0);
+                border: 1px solid grey;
+                width: 323px;
+                margin: auto;
+                margin-top: 15px;
+                padding: 11px;
+                padding-left: 20px;
+                font-size: 2rem;
+
+                &_name{
+                    margin-top: 30px;
+                }
+
+                &:focus{
+                    outline: none;
+                }
+            }
+
+            .btn{
+                width: 323px;
+                margin: auto;
+                background: #0c5cb3;
+                color: #fff;
+                border: none;
+                border-radius: 5px;
+                padding: 10px 4px;
+                margin-top: 25px;
+
+                &:hover{
+                    background: #027BFD;
+                }
+            }
+
+            
+
+            .politics{        font-size: 1.2rem;
+                line-height: 1.7rem;
+                margin-top: 20px;
+                color: #aaa;}
+        }
+    }
